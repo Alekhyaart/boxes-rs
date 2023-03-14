@@ -1,0 +1,99 @@
+/* Write your code here. */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading {
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #0f172a;
+  font-size: 28px;
+}
+* {
+  margin: 0;
+  font-family: "Roboto";
+}
+@media screen and (max-width: 766px) {
+  .heading {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.yellow {
+  background-color: #fbbf24;
+  height: 90px;
+  width: 90px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bree Serif";
+  color: #ffffff;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.blue {
+  background-color: #38bdf8;
+  height: 130px;
+  width: 130px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bree Serif";
+  color: #ffffff;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.pink {
+  background-color: #ec4899;
+  height: 160px;
+  width: 160px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bree Serif";
+  color: #ffffff;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 30px;
+  margin-right: 40px;
+}
+@media (min-width: 768px) {
+  .boxes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .yellow {
+    align-self: flex-end;
+  }
+  .blue {
+    align-self: flex-end;
+  }
+}
+h1 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.text {
+  align-items: center;
+  text-align: center;
+}
